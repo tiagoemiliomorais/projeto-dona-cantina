@@ -1,0 +1,45 @@
+
+ - Usuario cadastra produtos
+ - Usuario cadastra funcionarios
+ - Usuario cadastra eventos
+ - Usuario cadastra clientes
+ 
+
+
+ == ETAPAS ==
+
+	* Usuario escolhe qual ambiente trabalhar (Cantina ou Eventos)
+
+	. if(Cantina){ A tela de vendas sera diferente contendo apenas produto(opcional), quantidade e valor, e, dependendo se for a prazo
+	(categoria) abrira um popUp para adionar o cliente alimentando os demais dados da tabela vendas a prazo automaticamente}
+
+	OBS: para quitar uma venda a prazo não é necessario de uma tabela pois contem o campo status na tabela vendasAPrazo, modificando
+	apenas o total do valor devido (Status = parcialmente pago),(status = Pago) ou (status = Não).
+
+	. if(Eventos){ O usuario irá selecionar os funcionarios que atuarão no evento, alimentando o total gasto de
+	funcionarios na tabela eventos. Ao realizar vendas, todos os datos da tabela serão prenchidos (A categoria não será um campo
+	selecionavel uma vez que refere-se a vendas à prazo).
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
